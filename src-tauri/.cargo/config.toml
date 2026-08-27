@@ -1,0 +1,13 @@
+# 项目级 cargo 配置：覆盖全局失效的 USTC 镜像
+# 使用 rsproxy（字节跳动）镜像，支持 sparse 协议
+[source.crates-io]
+replace-with = 'rsproxy-sparse'
+
+[source.rsproxy-sparse]
+registry = "sparse+https://rsproxy.cn/index/"
+
+[registries.rsproxy]
+index = "sparse+https://rsproxy.cn/index/"
+
+[net]
+git-fetch-with-cli = true
