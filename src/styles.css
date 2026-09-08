@@ -22,55 +22,85 @@ body {
   background: #ffffff;
 }
 
-/* 首页空状态：浅色背景 + 居中「添加」卡片 */
+/* 首页空状态：浅灰背景 + 居中卡片 */
 .drop-hint {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
+  background: #f7f8fa;
 }
 
 .drop-hint__card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
-  padding: 48px 56px;
+  gap: 20px;
+  max-width: 420px;
+  padding: 40px 48px 44px;
   background: #ffffff;
   border: 1.5px dashed #d0d5dd;
   border-radius: 16px;
-  cursor: pointer;
-  color: #667085;
+  text-align: center;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
-  font-family: inherit;
 }
 
-.drop-hint__card:hover {
-  border-color: #3b82f6;
-  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.12);
+.drop-hint__card:has(.drop-hint__add:hover) {
+  border-color: #98a2b3;
+  box-shadow: 0 4px 20px rgba(16, 24, 40, 0.06);
 }
 
-.drop-hint__plus {
+.drop-hint__add {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  margin: 0;
+  border: 1.5px solid #e4e7ec;
   border-radius: 50%;
-  background: #eff4ff;
-  color: #3b82f6;
+  background: #fafbfc;
+  color: #667085;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1;
+  cursor: pointer;
+  font-family: inherit;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.drop-hint__add:hover {
+  border-color: #3b82f6;
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.drop-hint__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 .drop-hint__title {
-  font-size: 16px;
+  margin: 0;
+  font-size: 20px;
   font-weight: 600;
   color: #344054;
+  letter-spacing: -0.02em;
+  line-height: 1.35;
 }
 
-.drop-hint__desc {
-  font-size: 13px;
+.drop-hint__subtitle {
+  margin: 0;
+  max-width: 340px;
+  font-size: 14px;
+  font-weight: 400;
   color: #98a2b3;
+  line-height: 1.5;
 }
-
-/* 首页空状态：浅色背景 + 居中「添加」卡片 */

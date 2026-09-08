@@ -1,0 +1,17 @@
+{
+  "bundle": {
+    "targets": ["nsis"],
+    "useLocalToolsDir": true,
+    "windows": {
+      "webviewInstallMode": {
+        "type": "downloadBootstrapper",
+        "silent": true
+      },
+      "nsis": {
+        "displayLanguageSelector": true,
+        "languages": ["English", "SimpChinese"],
+        "installMode": "currentUser"
+      }
+    }
+  }
+}

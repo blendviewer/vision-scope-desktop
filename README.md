@@ -32,10 +32,10 @@ VisionScope 是一款跨平台桌面文件查看器。拖入或双击文件即�
 `glb` `gltf` `fbx` `obj` `stl` `3ds` `3dm` `3mf` `dae` `ifc` `usdz` 等
 
 ### CAD / 工程
-`dwg` `dxf`
+`dwg` `dxf` `step` `stp` `iges` `igs` `brep`
 
 ### 点云
-`pcd` `ply` `las`
+`pcd` `ply` `las` `laz`
 
 ### 纹理
 `ktx2` `basis`

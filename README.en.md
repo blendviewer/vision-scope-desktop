@@ -32,10 +32,10 @@ VisionScope is a cross-platform desktop file viewer. Drop a file or double-click
 `glb` `gltf` `fbx` `obj` `stl` `3ds` `3dm` `3mf` `dae` `ifc` `usdz`, and more
 
 ### CAD / Engineering
-`dwg` `dxf`
+`dwg` `dxf` `step` `stp` `iges` `igs` `brep`
 
 ### Point Clouds
-`pcd` `ply` `las`
+`pcd` `ply` `las` `laz`
 
 ### Textures
 `ktx2` `basis`

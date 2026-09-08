@@ -2,3 +2,7 @@ node_modules
 dist
 src-tauri/target
 src-tauri/gen
+quicklook/build
+quicklook/VisionScopeQuickLook.xcodeproj
+quicklook/VisionScopeQuickLook/Resources
+.env

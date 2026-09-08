@@ -1,0 +1,1554 @@
+{
+  "version": 1,
+  "unionVersion": 118,
+  "formats": {
+    "3dm": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.3dm",
+      "mime": "application/x-3dm",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "3ds": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.3ds",
+      "mime": "application/x-3ds",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "3mf": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.3mf",
+      "mime": "application/vnd.ms-package.3dmanufacturing-3dmodel+xml",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "7z": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "org.7-zip.7-zip-archive",
+      "mime": "application/x-7z-compressed",
+      "layout": "archive",
+      "previewLayout": {
+        "width": 960,
+        "height": 720,
+        "aspectRatio": "4:3"
+      },
+      "source": "union"
+    },
+    "amf": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.amf",
+      "mime": "application/x-amf",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "arrow": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.arrow",
+      "mime": "application/vnd.apache.arrow.file",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "avro": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.avro",
+      "mime": "application/avro",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "bash": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.shell-script",
+      "mime": "text/x-sh",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "basis": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.basis",
+      "mime": "image/basis",
+      "layout": "texture",
+      "previewLayout": {
+        "width": 1280,
+        "height": 1280,
+        "aspectRatio": "1:1"
+      },
+      "source": "union"
+    },
+    "brep": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.brep",
+      "mime": "application/octet-stream",
+      "layout": "spatial_cad",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "brp": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.brep",
+      "mime": "application/octet-stream",
+      "layout": "spatial_cad",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "bvh": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.bvh",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "c": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.c-source",
+      "mime": "text/x-c",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "cjs": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.netscape.javascript-source",
+      "mime": "text/javascript",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "cpp": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.c-plus-plus-source",
+      "mime": "text/x-c++src",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "cs": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.c-sharp-source",
+      "mime": "text/x-csharp",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "css": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.css",
+      "mime": "text/css",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "csv": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.csv",
+      "mime": "text/csv",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "dae": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "org.khronos.collada.digital-asset-exchange",
+      "mime": "model/vnd.collada+xml",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "db": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.db",
+      "mime": "application/vnd.sqlite3",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "dcm": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "org.nema.dicom",
+      "mime": "application/dicom",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "dicom": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "org.nema.dicom",
+      "mime": "application/dicom",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "doc": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.microsoft.word.doc",
+      "mime": "application/msword",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "dockerfile": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.dockerfile",
+      "mime": "text/x-dockerfile",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "docx": {
+      "enabled": false,
+      "slot": "plugin",
+      "uti": "org.openxmlformats.wordprocessingml.document",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "pluginId": "com.blendviewer.vision-docx",
+      "requiredPlugin": "com.blendviewer.vision-docx",
+      "source": "plugin"
+    },
+    "drc": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.drc",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "dwg": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.dwg",
+      "mime": "application/acad",
+      "layout": "spatial_cad",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "dxf": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.dxf",
+      "mime": "application/dxf",
+      "layout": "spatial_cad",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "fbx": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.fbx",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "feather": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.feather",
+      "mime": "application/vnd.apache.arrow.file",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "fit": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.fit",
+      "mime": "application/fits",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "fits": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.fits",
+      "mime": "application/fits",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "fts": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.fts",
+      "mime": "application/fits",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "gcode": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.gcode",
+      "mime": "text/plain",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "glb": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "org.khronos.glb",
+      "mime": "model/gltf-binary",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "gltf": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "org.khronos.gltf",
+      "mime": "model/gltf+json",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "go": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.golang.source",
+      "mime": "text/x-go",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "graphql": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.source",
+      "mime": "application/graphql",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "gz": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "org.gnu.gnu-zip-archive",
+      "mime": "application/gzip",
+      "layout": "archive",
+      "previewLayout": {
+        "width": 960,
+        "height": 720,
+        "aspectRatio": "4:3"
+      },
+      "source": "union"
+    },
+    "h5": {
+      "enabled": true,
+      "slot": "plugin",
+      "uti": "com.blendviewer.visionscope.preview.hdf5",
+      "mime": "application/x-hdf",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "pluginId": "com.blendviewer.vision-hdf5",
+      "requiredPlugin": "com.blendviewer.vision-hdf5",
+      "source": "builtin"
+    },
+    "hdf5": {
+      "enabled": true,
+      "slot": "plugin",
+      "uti": "com.blendviewer.visionscope.preview.hdf5",
+      "mime": "application/vnd.hdf",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "pluginId": "com.blendviewer.vision-hdf5",
+      "requiredPlugin": "com.blendviewer.vision-hdf5",
+      "source": "builtin"
+    },
+    "ifc": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.ifc",
+      "mime": "application/x-step",
+      "layout": "spatial_cad",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "iges": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.iges",
+      "mime": "application/iges",
+      "layout": "spatial_cad",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "igs": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.iges",
+      "mime": "application/iges",
+      "layout": "spatial_cad",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "java": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.sun.java-source",
+      "mime": "text/x-java-source",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "js": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.netscape.javascript-source",
+      "mime": "text/javascript",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "json": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.json",
+      "mime": "application/json",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "jsonl": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.jsonl",
+      "mime": "application/x-ndjson",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "jsx": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.netscape.javascript-source",
+      "mime": "text/javascript",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "kicad_pcb": {
+      "enabled": false,
+      "slot": "plugin",
+      "uti": "com.blendviewer.visionscope.preview.kicad",
+      "mime": "application/octet-stream",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "pluginId": "com.blendviewer.vision-kicanvas",
+      "requiredPlugin": "com.blendviewer.vision-kicanvas",
+      "source": "plugin"
+    },
+    "kicad_pro": {
+      "enabled": false,
+      "slot": "plugin",
+      "uti": "com.blendviewer.visionscope.preview.kicad",
+      "mime": "application/octet-stream",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "pluginId": "com.blendviewer.vision-kicanvas",
+      "requiredPlugin": "com.blendviewer.vision-kicanvas",
+      "source": "plugin"
+    },
+    "kicad_sch": {
+      "enabled": false,
+      "slot": "plugin",
+      "uti": "com.blendviewer.visionscope.preview.kicad",
+      "mime": "application/octet-stream",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "pluginId": "com.blendviewer.vision-kicanvas",
+      "requiredPlugin": "com.blendviewer.vision-kicanvas",
+      "source": "plugin"
+    },
+    "kicad_wks": {
+      "enabled": false,
+      "slot": "plugin",
+      "uti": "com.blendviewer.visionscope.preview.kicad",
+      "mime": "application/octet-stream",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "pluginId": "com.blendviewer.vision-kicanvas",
+      "requiredPlugin": "com.blendviewer.vision-kicanvas",
+      "source": "plugin"
+    },
+    "kmz": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.kmz",
+      "mime": "application/vnd.google-earth.kmz",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "kt": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.source",
+      "mime": "text/x-kotlin",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "ktx2": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.ktx2",
+      "mime": "image/ktx2",
+      "layout": "texture",
+      "previewLayout": {
+        "width": 1280,
+        "height": 1280,
+        "aspectRatio": "1:1"
+      },
+      "source": "builtin"
+    },
+    "las": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.las",
+      "mime": "application/octet-stream",
+      "layout": "point_cloud",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "laz": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.laz",
+      "mime": "application/octet-stream",
+      "layout": "point_cloud",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "less": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.source",
+      "mime": "text/x-less",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "log": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.apple.log",
+      "mime": "text/x-log",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "lwo": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.lwo",
+      "mime": "application/x-lwo",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "makefile": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.make-source",
+      "mime": "text/x-makefile",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "mat": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.mat",
+      "mime": "application/x-matlab-data",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "md": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "net.daringfireball.markdown",
+      "mime": "text/markdown",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "md2": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.md2",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "mdd": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.mdd",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "mjs": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.netscape.javascript-source",
+      "mime": "text/javascript",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "mmd": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.mmd",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "mpd": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.mpd",
+      "mime": "application/x-ldraw",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "ndjson": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.ndjson",
+      "mime": "application/x-ndjson",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "npy": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.npy",
+      "mime": "application/octet-stream",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "npz": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.npz",
+      "mime": "application/zip",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "nrrd": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.nrrd",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "obj": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.geometry-definition-format",
+      "mime": "model/obj",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "ods": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "org.oasis-open.opendocument.spreadsheet",
+      "mime": "application/vnd.oasis.opendocument.spreadsheet",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "parquet": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.parquet",
+      "mime": "application/vnd.apache.parquet",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "pcd": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.pcd",
+      "mime": "application/octet-stream",
+      "layout": "point_cloud",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "pdb": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.pdb",
+      "mime": "chemical/x-pdb",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "php": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.php-script",
+      "mime": "text/x-php",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "ply": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.polygon-file-format",
+      "mime": "application/octet-stream",
+      "layout": "point_cloud",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "pmx": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.pmx",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "ppt": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.microsoft.powerpoint.ppt",
+      "mime": "application/vnd.ms-powerpoint",
+      "layout": "presentation",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "pptx": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "org.openxmlformats-officedocument.presentationml.presentation",
+      "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "layout": "presentation",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "py": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.python-script",
+      "mime": "text/x-python",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "rar": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "org.rarlab.rar-archive",
+      "mime": "application/x-rar-compressed",
+      "layout": "archive",
+      "previewLayout": {
+        "width": 960,
+        "height": 720,
+        "aspectRatio": "4:3"
+      },
+      "source": "union"
+    },
+    "rb": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.ruby-script",
+      "mime": "text/x-ruby",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "rs": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.rust-source",
+      "mime": "text/x-rust",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "sass": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.source",
+      "mime": "text/x-sass",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "scss": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.source",
+      "mime": "text/x-scss",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "sh": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.shell-script",
+      "mime": "text/x-sh",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "sql": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.sql-script",
+      "mime": "text/x-sql",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "sqlite": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.sqlite",
+      "mime": "application/vnd.sqlite3",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "sqlite3": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.sqlite3",
+      "mime": "application/vnd.sqlite3",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "step": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.step",
+      "mime": "application/step",
+      "layout": "spatial_cad",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "stl": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.standard-tesselated-geometry-format",
+      "mime": "model/stl",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "stp": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.step",
+      "mime": "application/step",
+      "layout": "spatial_cad",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "tar": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "public.tar-archive",
+      "mime": "application/x-tar",
+      "layout": "archive",
+      "previewLayout": {
+        "width": 960,
+        "height": 720,
+        "aspectRatio": "4:3"
+      },
+      "source": "union"
+    },
+    "tilt": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.tilt",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "toml": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.source",
+      "mime": "text/x-toml",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "ts": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.microsoft.typescript",
+      "mime": "text/typescript",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "tsv": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.tsv",
+      "mime": "text/tab-separated-values",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "tsx": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.microsoft.typescript",
+      "mime": "text/typescript",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "ttf": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.ttf",
+      "mime": "font/ttf",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "txt": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.plain-text",
+      "mime": "text/plain",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "usdz": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "com.pixar.universal-scene-description-mobile",
+      "mime": "model/vnd.usdz+zip",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "vox": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.vox",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "vrml": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.vrml",
+      "mime": "model/vrml",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "vtk": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.vtk",
+      "mime": "application/octet-stream",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "vtp": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.vtk",
+      "mime": "application/xml",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "wrl": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.vrml",
+      "mime": "model/vrml",
+      "layout": "spatial_3d",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "xls": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.microsoft.excel.xls",
+      "mime": "application/vnd.ms-excel",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "xlsx": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "org.openxmlformats.spreadsheetml.sheet",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "layout": "tabular",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "xml": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.xml",
+      "mime": "text/xml",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "xyz": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "com.blendviewer.visionscope.preview.xyz",
+      "mime": "text/plain",
+      "layout": "point_cloud",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "union"
+    },
+    "yaml": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.yaml",
+      "mime": "text/yaml",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "yml": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.yaml",
+      "mime": "text/yaml",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    },
+    "zip": {
+      "enabled": false,
+      "slot": "builtin",
+      "uti": "public.zip-archive",
+      "mime": "application/zip",
+      "layout": "archive",
+      "previewLayout": {
+        "width": 960,
+        "height": 720,
+        "aspectRatio": "4:3"
+      },
+      "source": "union"
+    },
+    "zsh": {
+      "enabled": true,
+      "slot": "builtin",
+      "uti": "public.shell-script",
+      "mime": "text/x-sh",
+      "layout": "document",
+      "previewLayout": {
+        "width": 1280,
+        "height": 720,
+        "aspectRatio": "16:9"
+      },
+      "source": "builtin"
+    }
+  }
+}

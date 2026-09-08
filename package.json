@@ -6,16 +6,36 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/run-vite-build.mjs",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "node scripts/run-tauri-dev.mjs",
+    "generate:quicklook": "node scripts/generate-quicklook-config.js",
+    "build:quicklook": "./scripts/build-quicklook.sh",
+    "embed:quicklook": "./scripts/embed-quicklook.sh",
+    "install:quicklook": "./scripts/install-quicklook.sh",
+    "codesign:app": "./scripts/codesign-app.sh",
+    "build:dmg": "./scripts/build-dmg.sh",
+    "notarize:dmg": "./scripts/notarize-dmg.sh",
+    "build:pkg": "./scripts/build-pkg.sh",
+    "release:macos": "./scripts/release-macos.sh",
+    "release:macos:dev": "./scripts/release-macos.sh dev",
+    "release:macos:direct": "./scripts/release-macos.sh direct",
+    "release:macos:appstore": "./scripts/release-macos.sh appstore",
+    "release:windows": "node scripts/release-windows.mjs",
+    "release:windows:dev": "node scripts/release-windows.mjs dev",
+    "release:windows:direct": "node scripts/release-windows.mjs direct",
+    "generate:brand": "node scripts/generate-brand-assets.cjs",
+    "dev:space-preview": "node scripts/run-tauri-dev.mjs dev",
+    "tauri:dev": "node scripts/run-tauri-dev.mjs dev"
   },
   "dependencies": {
     "@blendviewer/vision-scope": "^0.1.1",
+    "@blendviewer/vision-hdf5-plugin": "^0.1.0",
     "@tauri-apps/api": "^2.0.0"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2.0.0",
+    "sharp": "^0.34.5",
     "vite": "^6.0.3",
     "vite-plugin-static-copy": "^2.2.0"
   }

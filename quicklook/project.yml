@@ -1,0 +1,44 @@
+name: VisionScopeQuickLook
+options:
+  bundleIdPrefix: com.blendviewer
+  deploymentTarget:
+    macOS: "12.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "12.0"
+    # 出 universal（arm64 + x86_64），与主 App 架构一致，否则 Intel Mac 上扩展加载失败
+    ARCHS: [arm64, x86_64]
+    ONLY_ACTIVE_ARCH: NO
+targets:
+  VisionScopeQuickLook:
+    type: app-extension
+    platform: macOS
+    sources:
+      - path: VisionScopeQuickLook
+        excludes:
+          - Resources/**
+      - path: VisionScopeQuickLook/Resources/web
+        type: folder
+        buildPhase: resources
+    settings:
+      CODE_SIGN_STYLE: Automatic
+      ENABLE_APP_SANDBOX: YES
+      PRODUCT_NAME: VisionScopeQuickLook
+      PRODUCT_BUNDLE_IDENTIFIER: com.blendviewer.visionscope.quicklook
+      INFOPLIST_FILE: VisionScopeQuickLook/Info.plist
+      CODE_SIGN_ENTITLEMENTS: VisionScopeQuickLook/VisionScopeQuickLook.entitlements
+      GENERATE_INFOPLIST_FILE: NO
+      SKIP_INSTALL: NO
+      LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"
+    entitlements:
+      path: VisionScopeQuickLook/VisionScopeQuickLook.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.network.client: true
+        com.apple.security.files.user-selected.read-only: true
+        com.apple.security.cs.allow-jit: true
+        com.apple.security.cs.allow-unsigned-executable-memory: true

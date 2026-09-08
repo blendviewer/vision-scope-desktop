@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/linglong-logo.svg" type="image/svg+xml" />
     <title>VisionScope</title>
     <!-- 关键首屏样式内联：在外部 CSS 加载前消除 FOUC，
-         避免「打开文件」卡片先出现在左上角再跳回中间。 -->
+         避免空状态文案先出现在左上角再跳回中间。 -->
     <style>
       html,
       body {
@@ -32,19 +33,60 @@
         justify-content: center;
         width: 100%;
         height: 100%;
+        background: #f7f8fa;
       }
       .drop-hint__card {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 12px;
-        padding: 48px 56px;
+        gap: 20px;
+        max-width: 420px;
+        padding: 40px 48px 44px;
         background: #ffffff;
         border: 1.5px dashed #d0d5dd;
         border-radius: 16px;
-        cursor: pointer;
-        color: #667085;
+        text-align: center;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+      .drop-hint__add {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 56px;
+        padding: 0;
+        margin: 0;
+        border: 1.5px solid #e4e7ec;
+        border-radius: 50%;
+        background: #fafbfc;
+        color: #667085;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 1;
+        cursor: pointer;
+        font-family: inherit;
+      }
+      .drop-hint__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+      .drop-hint__title {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 600;
+        color: #344054;
+        letter-spacing: -0.02em;
+        line-height: 1.35;
+      }
+      .drop-hint__subtitle {
+        margin: 0;
+        max-width: 340px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #98a2b3;
+        line-height: 1.5;
       }
     </style>
   </head>
@@ -52,16 +94,15 @@
     <div id="app">
       <div id="viewer" class="viewer"></div>
       <div id="drop-hint" class="drop-hint">
-        <button id="open-btn" class="drop-hint__card" type="button">
-          <span class="drop-hint__plus" aria-hidden="true">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
-              <line x1="12" y1="5" x2="12" y2="19" />
-              <line x1="5" y1="12" x2="19" y2="12" />
-            </svg>
-          </span>
-          <span class="drop-hint__title">打开文件</span>
-          <span class="drop-hint__desc">点击选择文件，或将文件拖拽到此处</span>
-        </button>
+        <div class="drop-hint__card">
+          <button id="open-btn" class="drop-hint__add" type="button" aria-label="Open file">
+            <span aria-hidden="true">+</span>
+          </button>
+          <div class="drop-hint__text">
+            <h1 class="drop-hint__title">Press Space in Finder to preview</h1>
+            <p class="drop-hint__subtitle">3D models, CAD, point clouds &amp; more — locally, no upload</p>
+          </div>
+        </div>
       </div>
     </div>
     <script type="module" src="/src/main.js"></script>

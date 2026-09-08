@@ -1,0 +1,13 @@
+{
+  "identifier": "default",
+  "description": "Default IPC permissions for main and space-preview windows",
+  "windows": ["*"],
+  "permissions": [
+    "core:default",
+    "core:event:default",
+    "core:window:default",
+    "core:webview:default",
+    "opener:default",
+    "dialog:default"
+  ]
+}
